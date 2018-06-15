@@ -26,6 +26,10 @@
 #define SECRET_BYTES 48
 #define SECRET_CHARS 2 * SECRET_BYTES
 
+#define BUF_SIZE 4096
+
+#define MIN_SDB_SIZE 16
+
 struct char_pair {
 	char c1;
 	char c2;
